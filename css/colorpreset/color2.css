@@ -1,0 +1,106 @@
+/**************************************************************************
+* Color Code: #3DE1C6
+****************************************************************************/
+
+/* Background Color */
+.tp-bullets .bullet.selected{ background: #3DE1C6 !important; }
+#switch, .presetsArea h4, 
+.abWork, .sectionTitle::after, .singlePartner::after, 
+.searchForm404 button[type="submit"], .skillarea, .singleFacts h1::after, .s2Mainroller, 
+.slbMeta2 a.likecomment:hover, .slbMeta2 a.likecomment:hover, 
+.navigations a:hover, .navigations span:hover, .navigations span.current, 
+.widgetTitle::after, #commentForm input[type="submit"], .sbLikeCount a.lk, 
+.contactForms input[type="submit"], .camBtn3, .camBtn4, .camBtn5, .camBtn6, .camBtn7, .camBtn8, 
+.camBtn9, .camBtn10, .camBtn11, .camBtn12, .camBtn9:hover i, .camBtn10:hover i, .camBtn11:hover i, 
+.camBtn12:hover i, .myAccPanels .panel-title > a i.acIcona, .p2Foot a:hover, .p2PlanName,  
+.pricePrice, .navigations2 span, .shareButton, .folioShareButtons, .modalClose:hover i::after, 
+.modalClose:hover i::before, .homeSlider2 #bx-pager a img, .camButton, .serviceOpened, .s2Process::before, 
+.processHeading::after, .modCloseButton{
+    background: #3DE1C6;
+}
+.camBtn9 i, .camBtn10 i, .camBtn11 i, .camBtn12 i, .camBtn9:hover, .camBtn10:hover, 
+.camBtn11:hover, .camBtn12:hover{
+    background: #36c6ae;
+}
+
+/* Bacground RGBA */
+.hGIhover, .flickrImg a span, .recentProjects a span, .flickr2Img a span, 
+.serviceCarousel .jcarousel-control-prev:hover, .serviceCarousel .jcarousel-control-next:hover{
+    background: rgba(61, 225, 198, 0.7) none repeat scroll 0 0;
+}
+.blogThumbHover, .hoverContent{
+    background: rgba(61, 225, 198, 0.8) none repeat scroll 0 0;
+}
+.teamHover{
+    background: rgba(61, 225, 198, 0.9) none repeat scroll 0 0;
+}
+
+/* box Shadow */
+.camBtn7, .camBtn8{box-shadow: 0 6px #36c6ae;}
+
+/* Border-color*/
+.hGIhover, .sblButton:hover, .slbMeta2 a.likecomment:hover, .slbMeta2 a.likecomment:hover, 
+.navigations a:hover, .navigations span:hover, .navigations span.current, #sB1Slider .carousel-control:hover, 
+#commentForm input[type="text"]:focus, #commentForm input[type="email"]:focus, #commentForm textarea:focus, 
+.sbLikeCount a.cm:hover, .contactForms input[type="text"]:focus, .contactForms input[type="email"]:focus, 
+.contactForms textarea:focus, .f1THCon a:hover, .sF2THoverLink:hover, .sF2THoverLink2:hover, 
+.sF4ReadMore:hover, .sF5HoverLink a:hover, .navigations2 a:hover, .congrolsSF a:hover, .clientFeedback, 
+.sfPrev:hover i, .sfStop:hover i, .sfNext:hover i, .flow .nextButton:hover, .flow .prevButton:hover, 
+.ribbon_wrapper .btn_prev:hover, .ribbon_wrapper .btn_next:hover, #gallThumb .carousel-control.left:hover, 
+#gallThumb .carousel-control.right:hover, .gallControl a:hover, .gallControl span:hover, 
+.gfPrev:hover i, .gfNext:hover i, .gfStop:hover i, .ser2Single:hover{
+    border-color: #3DE1C6;
+}
+.p2PlanName::before{border-color: transparent #3DE1C6 transparent transparent;}
+.p2PlanName::after{border-color: transparent transparent transparent #3DE1C6;}
+.sfPlay:hover i{border-left-color: #3DE1C6;}
+.mainMenu ul > li > a:hover::after{border-top-color: #3DE1C6;}
+
+/* Color */
+.copyRight a, .logo a:hover, 
+.des404 a, .blogMeta a:hover, .blogReadMore:hover, .blog1Details h3 a:hover, 
+.sblMeta a:hover, .sblheading a:hover, .sblButton:hover, .singleRecentBlog a:hover, 
+.widget ul li a:hover, .widget ul li a:hover::before, .sbLikeCount a.cm:hover, 
+.authorDetails h3 a:hover, .comHead h3 a:hover, .comHead p a:hover, 
+.singleConInfo:hover .conIcon, .iconBoxes:hover .s1Img i, .iconBoxes:hover h4, 
+.iconBoxes:hover p, .myAccPanels .panel-title > a::after, .gridMenu ul li:hover, .gridMenu ul li.active, 
+.f1THCon a:hover, .f1Details h3 a:hover, .f1Count a.h4like, .f1Count a.h4view:hover, 
+.sF2THoverLink:hover, .sF2THoverLink2:hover, .sF2Det h3 a:hover, .sF2Count a.h4like, 
+.sF2Count a.h4view:hover, .sF4Det h3 a:hover, .sF4Count a:hover, .sF4ReadMore:hover, 
+.sF5HoverLink a:hover, .sF5Det h3 a:hover, .sF5Count a.h4like, .sF5Count a.h4view:hover, 
+.navigations2 a:hover, .congrolsSF a:hover, .g1Hover h1 a:hover, .g1Hover a:hover, .slider_data a:hover, 
+.block_likes a:hover, .sb5HContent h1 a:hover, .sb5HContent a:hover, .carouselCount .carousel-control:hover, 
+.gallCount a:hover, .gfLike:hover i, .h4HoverContent h3 a:hover, .h4Count a:hover, a:hover, 
+.ser1Single:hover .s1Img i, .ser1Single:hover h4, .ser1Single:hover p, .fewWordsDet ul li::before, 
+.ser2Single:hover .s2Img i, .ser2Single:hover h4 a, .mainMenu ul li a:hover, .mainMenu ul.subMenu li:hover a, .mainMenu ul.subMenu li.active a{
+    color: #3DE1C6;
+}
+
+/* Background Images */
+.menuButon a:hover{
+    background: rgba(0, 0, 0, 0) url("../../images/menu2.png") no-repeat scroll center top
+}
+.logo a{
+    background: rgba(0, 0, 0, 0) url("../../images/logo2.png") no-repeat scroll left 0
+}
+#aboutSlid .carousel-control.left:hover{
+    background: #3DE1C6 url("../../images/abprev.png") no-repeat scroll center center
+}
+#aboutSlid .carousel-control.right:hover{
+    background: #3DE1C6 url("../../images/abnext.png") no-repeat scroll center center
+}
+
+
+/* Extra CSS */
+#backToTop:hover{
+    color: #3DE1C6;
+    border-color: #3DE1C6;
+}
+.nicescroll-cursors{
+    background: #3DE1C6 none repeat scroll 0 0 !important;
+}
+.loader{
+    background: #3DE1C6;
+}
+.mainMenu ul li a:hover, .mainMenu > ul > li.active > a{color: #3DE1C6; }
+.mainMenu > ul > li.hasChildItem > a:hover::after{border-top-color: #3DE1C6;}

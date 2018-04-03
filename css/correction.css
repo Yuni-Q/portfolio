@@ -1,0 +1,155 @@
+/*=========================================================================
+// Header
+===========================================================================*/
+.header-area{
+    height: 656px;
+    background: url("../images/slide_tringl_bg.png") no-repeat scroll left top  rgba(0, 0, 0, 0);
+    width: 58%;
+    left: 0;
+    padding-left: 30px;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+}
+.logo-img {
+    margin-top: 27%;
+    width: 80px;
+}
+.heading {
+    width: 51%;
+}
+.heading h1 {
+    font-size: 60px;
+    line-height: 44px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.heading p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+.menu {
+    margin-top: 95px;
+}
+.menu ul{
+    text-align: left;
+}
+.menu ul li {
+    line-height: 12px;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+.menu ul > li{
+    padding-bottom: 20px;
+}
+.menu ul li a {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 18px;
+    width: 100px;
+}
+.menu ul li > a{
+    font-weight: 200;
+}
+.menu ul li:hover > a{
+    font-weight: 700;
+}
+nav .drop-menu {
+    left: -100%;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    width: 400px;
+    visibility: hidden;
+    -webkit-transition: all 700ms ease-in-out;
+    -moz-transition: all 700ms ease-in-out;
+    -ms-transition: all 700ms ease-in-out;
+    -o-transition: all 700ms ease-in-out;
+    transition: all 700ms ease-in-out;
+}
+nav .drop-menu li{
+    display: inline-block;
+    line-height: 8px;
+}
+nav .drop-menu li a{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 8px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    width: auto;
+    -webkit-transition: all 700ms ease-in-out;
+    -moz-transition: all 700ms ease-in-out;
+    -ms-transition: all 700ms ease-in-out;
+    -o-transition: all 700ms ease-in-out;
+    transition: all 700ms ease-in-out;
+}
+nav .drop-menu li a:hover{
+    color: #de3c2f;
+    font-weight: 400;
+
+}
+.menu ul li:hover .drop-menu{
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+/*=========================================================================
+// Slider
+===========================================================================*/
+.slider-area{
+    background: none;
+    height: auto;
+    overflow: hidden;
+}
+.comonItem{
+    position: relative;
+    width: 100%;
+    height: 656px;
+}
+.itemOne{
+    background: url(../images/slider/1.jpg) no-repeat center center / cover rgba(0, 0, 0, 0);
+}
+.itemTwo{
+    background: url(../images/slider/2.jpg) no-repeat center center / cover rgba(0, 0, 0, 0);
+}
+.itemThree{
+    background: url(../images/slider/3.jpg) no-repeat center center / cover rgba(0, 0, 0, 0);
+}
+.itemFour{
+    background: url(../images/slider/4.jpg) no-repeat center center / cover rgba(0, 0, 0, 0);
+}
+.itemFive{
+    background: url(../images/slider/5.jpg) no-repeat center center / cover rgba(0, 0, 0, 0);
+}
+#mainCarousle .carousel-indicators{
+    bottom: 30%;
+    margin: 0px;
+    left: auto;
+    right: 60px;
+    width: 10px;
+}
+#mainCarousle .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    margin: 0px 0px 16px;
+    border: 2px solid #fff;
+}
+#mainCarousle .carousel-indicators li:last-child{
+    margin-bottom: 0px;
+}
+/*=========================================================================
+// Feature Area
+===========================================================================*/
+.commonPadding120{
+    padding: 120px 0px;
+}
+.single-feature p {
+    padding: 15px 45px 35px;
+}

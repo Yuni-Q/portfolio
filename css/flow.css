@@ -1,0 +1,231 @@
+﻿/*
+Item Name: jQuery Carousel Evolution
+Author: Mapalla
+Author URI: http://codecanyon.net/user/Mapalla
+Version: 1.0
+*/
+
+/* _______________________________________________ */
+
+/* CONTAINER */
+/* _______________________________________________ */
+
+
+.flow {
+  position : relative;
+  margin : 0 auto;
+  width : 100%;
+  height : auto;
+  border : none;
+  overflow : visible;
+}
+
+/* _______________________________________________ */
+
+/* SLIDES */
+/* _______________________________________________ */
+
+/* slide container */
+
+.flow .slides {
+  margin : 0;
+  padding : 0;
+  border : none;
+  list-style : none;
+  position : relative;
+  overflow : visible;
+}
+
+/* slide item */
+
+.flow .slides .slideItem {
+  position : absolute;
+  cursor : pointer;
+  overflow : hidden;
+  padding : 0;
+  margin : 0;
+  border : none;
+}
+
+.flow .slides .slideItem a {
+  display: block;
+  text-decoration : none;
+  margin : 0;
+  padding : 0;
+  border : none;
+  outline : none;
+}
+
+.flow .slides .slideItem img {
+  margin : 0;
+  padding : 0;
+  border : none;
+  width : 100%;
+  height : 100%;
+}
+
+/* _______________________________________________ */
+
+/* DIRECTION BUTTON */
+/* _______________________________________________ */
+
+
+.flow .nextButton {
+    position : absolute;
+    right : 10px;
+    top : 160px;
+    width : 48px;
+    height : 48px;
+    cursor : pointer;
+    z-index : 9999;
+    border-top: 1px solid rgba(37, 37, 37, .2);
+    border-right: 1px solid rgba(37, 37, 37, .2);
+    transition: all ease 700ms;
+    -moz-transition: all ease 700ms;
+    -webkit-transition: all ease 700ms;
+    -ms-transition: all ease 700ms;
+    -o-transition: all ease 700ms;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.flow .nextButton:hover, .flow .prevButton:hover{
+    border-color: #fe8869;
+}
+.flow .prevButton {
+    position : absolute;
+    left : 10px;
+    top : 160px;
+    width : 48px;
+    height: 48px;
+    cursor : pointer;
+    z-index : 9999;
+    border-bottom: 1px solid rgba(37, 37, 37, .2);
+    border-left: 1px solid rgba(37, 37, 37, .2);
+    transition: all ease 700ms;
+    -moz-transition: all ease 700ms;
+    -webkit-transition: all ease 700ms;
+    -ms-transition: all ease 700ms;
+    -o-transition: all ease 700ms;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+/* _______________________________________________ */
+
+/* NAVIGATION BUTTON */
+/* _______________________________________________ */
+
+/* buttons container */
+
+.flow .buttonNav {
+  position : relative;
+  margin : 0 auto;
+  z-index : 999;
+}
+
+/* numbers */
+
+.flow .buttonNav .numbers {
+  position : relative;
+  float : left;
+  margin : 5px;
+  color : #828282;
+  cursor : pointer;
+  font-weight : bold;
+  text-decoration : none;
+  font-size : 1em;
+  font-family : Arial, Verdana;
+}
+
+.flow .buttonNav .numbers:hover {
+  color: #000;
+  text-decoration : underline;
+}
+
+.flow .buttonNav .numberActive {
+  background : none;
+  color : #000;
+  cursor : default;
+}
+
+/* bullets */
+
+.flow .buttonNav .bullet {
+  position : relative;
+  float : left;
+  width : 16px;
+  height : 16px;
+  background : url(../images/Bullet-White.png) no-repeat center;
+  margin : 5px;
+  float : left;
+  cursor : pointer;
+}
+
+.flow .buttonNav .bullet:hover { background : url(../images/Bullet-Black.png) no-repeat center; }
+
+.flow .buttonNav .bulletActive {
+  background : url(../images/Bullet-Black.png) no-repeat center;
+  cursor : default;
+}
+
+/* ____________________________________________________________ */
+
+/* VIDEO */
+/* ____________________________________________________________ */
+
+
+.flow .slides .videoOverlay { background : url("../images/video.png") no-repeat center; /* play button */ }
+
+.flow .slides .spinner { background : #000 url("../images/loading.gif") no-repeat center; /* video preloader */ }
+
+/* _____________________________ *
+
+/* SHADOW */
+/* _____________________________ */
+
+
+.flow .shadow {
+  width : 100%;
+  height : 82px;
+}
+
+.flow .shadow .shadowLeft {
+  background : url("../images/shadowLeft.png") no-repeat;
+  width : 100px;
+  height : 82px;
+  /* fix png problems in ie */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowLeft.png, sizingmethod=scale)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowLeft.png, sizingmethod=scale);   /* IE6 & 7 */
+}
+
+.flow .shadow .shadowMiddle {
+  height : 82px;
+  background: url("../images/shadowTile.png") repeat-x;
+  /* fix png problems in ie */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowTile.png, sizingmethod=scale)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowTile.png, sizingmethod=scale);   /* IE6 & 7 */
+}
+
+.flow .shadow .shadowRight {
+  width : 100px;
+  height : 82px;
+  background: url("../images/shadowRight.png") no-repeat;
+  /* fix png problems in ie */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowRight.png, sizingmethod=scale)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowRight.png, sizingmethod=scale);   /* IE6 & 7 */
+}
+
+/* ____________________________________________________________ */
+
+/* REFLECTION GRADIENT */
+/* ____________________________________________________________ */
+
+/* gradient color for Opera */
+
+.flow .gradient { background-image : url(../scripts/gradient.svg); }

@@ -1,0 +1,774 @@
+/*
+  Theme Name: CAM
+  Theme URL: http://www.themewar.com/html/camland
+  Author: Warshape
+  Author URI: http://www.themewar.com
+  Description: CAM - Responsive Photography & Portfolio Template
+  Version: 1.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Header
+    i. Menu
+    ii. Logo
+2. Slider
+3. Home quatation 1
+4. Home Gallery
+5. Partner
+6. Footer
+7. Home 2 Slider
+8. Home 3 Slider
+9. Home 4
+10. Home 5
+11. Folio 1
+12. Folio 2
+13. Folio 3
+14. Folio 4
+15. Folio 5
+16. Gallery 1
+17. Gallery 2
+18. Gallery 3
+19. Gallery 4
+20. Gallery 5
+21. About 1
+    i. Team
+ii. Testimonial
+22. About 2
+    i. Funfacts
+    ii. Skill Section
+23. Service 1
+24. Service 2
+    i. Process
+    ii. Carousel
+    iii. Pricing Tabls
+25. Blog 1
+26. Blog 2
+27. Single Blog 1
+28. Sidebar
+29. Single Blog 2
+30. Contact Page
+31. 404 Page
+32. Single Folio
+33. Single Gallery
+34. Back To Top
+35. Nice Scroll
+36. Preloader
+==========================================================================*/
+
+/*=======================================================================
+[Available Fonts]
+=========================================================================
+1. PT Sans
+2. Abel
+==========================================================================*/
+
+@media (min-width: 992px) and (max-width: 1199px){
+    /*===============================
+    // About 1
+    ===============================*/
+    .abImg{height: auto;}
+    .abImg img{width: 100%; height: auto;}
+    .teamHover{padding-top: 36%;}
+    #backToTop{right: 10px;}
+    /*===============================
+    // About 2
+    ===============================*/
+    .ab2Details, .ab2Details2{ margin-bottom: 30px; }
+    .singleSkill2{margin-bottom: 30px;}
+    
+    /*===============================
+    // Blog 1
+    ===============================*/
+    .blogSmallThumb{margin-bottom: 35px;}
+    
+    /*===============================
+    // Blog 2
+    ===============================*/
+    .sblheading{margin-bottom: 0px;}
+    .sblMeta{margin-top: 15px; margin-bottom: 50px; text-align: left;}
+    
+    /*===============================
+    // Blog Single 1
+    ===============================*/
+    .singleRecentBlog{margin-bottom: 30px;}
+    /*===============================
+    // Blog Single 2
+    ===============================*/
+    .authorDetails p{padding-right: 0px;}
+    .commentList ol li ol li .singleComm img{left: 5px;}
+    .commentList ol li ol li .singleComm{padding-left: 174px;}
+    
+    /*===============================
+    // Elements
+    ===============================*/
+    .butonSets{margin-bottom: 30px;}
+    .myAccPanels .panel-default > .panel-heading + .panel-collapse > .panel-body{padding-left: 25px;}
+    .iconBoxes{padding: 0px;}
+    .price2, .singlePrice{margin-bottom: 30px;}
+    
+    /*===============================
+    // Folio 1
+    ===============================*/
+    .sFolio1.noMarginBottom{margin-bottom: 30px !important;}
+    
+    /*===============================
+    // Folio 3
+    ===============================*/
+    .sF5Item{height: 395px;}
+    .sF5Item img{min-height: 100%; min-width: 100%; width: auto;}
+    
+    /*===============================
+    // Gall 1
+    ===============================*/
+    .g1Item.noMarginBottom{margin-bottom: 30px !important;}
+    #myGallery .modal-dialog{width: 90%;}
+    .myGalleryModal{z-index: 9999;}
+    .modal-backdrop.in{z-index: 9998;}
+    .g1hContent{padding-top: 40%;}
+    
+    /*===============================
+    // Gall 2
+    ===============================*/
+    .gmyCon{padding-top: 105px;}
+    .flow{width: 700px;}
+    /*===============================
+    // Gall 4
+    ===============================*/
+    .g4HoverContent{padding-top: 78px;}
+    
+    /*===============================
+    // Home 01
+    ===============================*/
+    .revSlider{height: auto;}
+    .revSlider .tp-caption{
+        left: 0px !important;
+        width: 100% !important;
+        text-align: left !important;
+        padding-left: 100px !important;
+    }
+    /*===============================
+    // Home 02
+    ===============================*/
+    .homeSlider2 .bx-wrapper{height: auto;}
+    .homeSlider2 .bx-wrapper .bx-viewport img{height: auto; min-width: 100%;}
+    .homeSlider2 #bx-pager{text-align: center;}
+    .homeSlider2 #bx-pager a{margin-bottom: 5px;}
+    .homeSlider2 .bx-next{right: 20px;}
+    .homeSlider2 .bx-prev{left: 20px;}
+    
+    /*===============================
+    // Home 04
+    ===============================*/
+    .h4Gall{width: 390px; margin:  0 auto;}
+    
+    /*===============================
+    // Home 05
+    ===============================*/
+    #home5Slider .item img{ width: 100%; height: auto;}
+    .h5Next{right: 20px;}
+    .h5Prev{left: 20px;}
+    /*===============================
+    // Service Two
+    ===============================*/
+    .ser2Single {
+        margin-top: 30px;
+    }
+    .serviceOpened{
+        margin-top: 30px;
+    }
+    .service2Section .sectionTitle{
+        margin-bottom: 50px;
+    }
+    #backToTop {
+        bottom: 8px;
+        right: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    /*===============================
+    // About 1
+    ===============================*/
+    .abImg{margin-top: 80px;}
+    .teamHover{padding-top: 35%;}
+    #backToTop{bottom: 42px; right: 10px;}
+    
+    /*===============================
+    // About 2
+    ===============================*/
+    .ab2Details, .ab2Details2{ margin-bottom: 30px; }
+    .singleAbService.noMarginBottom{ margin-bottom: 60px !important;}
+    .singleSkill2{margin-bottom: 30px;}
+    
+    /*===============================
+    // Blog 1
+    ===============================*/
+    .blogSmallThumb{margin-bottom: 35px;}
+    /*===============================
+    // Blog 2
+    ===============================*/
+    .sblheading{margin-bottom: 0px;}
+    .sblMeta{margin-top: 15px; margin-bottom: 50px; text-align: left;}
+    
+    /*===============================
+    // Blog Single 1
+    ===============================*/
+    .sidebar{padding-left: 15px;}
+    .singleRecentBlog{margin-bottom: 30px;}
+    
+    /*===============================
+    // Blog Single 2
+    ===============================*/
+    .authorDetails{width: 100%; padding-left: 0px;}
+    .authorDetails img{position: relative; margin-bottom: 15px;}
+    .authorDetails p{padding: 0px;}
+    .blogShare2{float: left; width: 100%;}
+    .singleComm img{position: relative; margin-bottom: 15px; left: 0;}
+    .singleComm{position: relative; padding-left: 0px;}
+    .commentList ol li ol li .singleComm{padding-left: 0px;}
+    .commentList ol li ol li .singleComm img{left: 0px;}
+    #commentForm input[type="text"], #commentForm input[type="email"]{margin-left: 0; margin-right: 0;}
+    
+    /*===============================
+    // Elements
+    ===============================*/
+    .butonSets{margin-bottom: 30px;}
+    .myAccPanels .panel-default > .panel-heading + .panel-collapse > .panel-body{padding-left: 25px;}
+    .iconBoxes{padding: 0px;}
+    .price2, .singlePrice{margin-bottom: 30px;}
+    
+    /*===============================
+    // Folio 1
+    ===============================*/
+    .sFolio1.noMarginBottom{margin-bottom: 30px !important;}
+    /*===============================
+    // Folio 2
+    ===============================*/
+    .sFolio2:hover .sF2THoverLink{left: 125px;}
+    .sFolio2:hover .sF2THoverLink2{right: 125px;}
+    
+    /*===============================
+    // Folio 3
+    ===============================*/
+    .sFolio2.sFolio3:hover .sF2THoverLink{left: 120px;}
+    .sFolio2.sFolio3:hover .sF2THoverLink2{right: 120px;}
+    /*===============================
+    // Folio 3
+    ===============================*/
+    .sF5Item{height: 300px;}
+    .sF5Item img{min-height: 100%; min-width: 100%; width: auto;}
+    
+    /*===============================
+    // Gall 1
+    ===============================*/
+    .g1Item.noMarginBottom{margin-bottom: 30px !important;}
+    #myGallery .modal-dialog{width: 90%;}
+    .myGalleryModal{z-index: 9999;}
+    .modal-backdrop.in{z-index: 9998;}
+    .carouselCount p{padding-left: 30px;}
+    .itemDes{left: 20px;}
+     /*===============================
+    // Gall 2
+    ===============================*/
+    .gmyCon{padding-top: 105px;}
+    .flow{width: 700px;}
+    
+    /*===============================
+    // Gall 4
+    ===============================*/
+    .g4BigView{height: auto;}
+    .g4HoverContent{padding-top: 48px;}
+    /*===============================
+    // Gall 5
+    ===============================*/
+    .sb5HContent{padding-top: 180px;}
+    
+    /*===============================
+    // Home 01
+    ===============================*/
+    .revSlider{height: auto;}
+    .abAbout{margin-top: 30px;}
+    .abWork{height: 264px;}
+    .revSlider .tp-caption{
+        left: 0px !important;
+        width: 100% !important;
+        text-align: left !important;
+        padding-left: 100px !important;
+    }
+    
+    /*===============================
+    // Home 02
+    ===============================*/
+    .homeSlider2 .bx-wrapper{height: auto;}
+    .homeSlider2 .bx-wrapper .bx-viewport img{height: auto; min-width: 100%;}
+    .homeSlider2 #bx-pager{text-align: center;}
+    .homeSlider2 #bx-pager a{margin-bottom: 5px;}
+    .homeSlider2 .bx-next{right: 20px;}
+    .homeSlider2 .bx-prev{left: 20px;}
+    
+    /*===============================
+    // Home 05
+    ===============================*/
+    #home5Slider .item img{ width: 100%; height: auto;}
+    .h5Next{right: 20px;}
+    .h5Prev{left: 20px;}
+    /*===============================
+    // Service Two
+    ===============================*/
+    .ser2Single {
+        margin-top: 30px;
+    }
+    .serviceOpened{
+        margin-top: 30px;
+    }
+    .service2Section .sectionTitle{
+        margin-bottom: 50px;
+    }
+    #backToTop {
+        bottom: 8px;
+        right: 10px;
+    }
+    /*===============================
+    // Service One
+    ===============================*/
+    .fewWordsDet .sectionTitle {
+        margin-top: 30px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    /*===============================
+    // 404
+    ===============================*/
+    .para404{font-size: 140px; line-height: 95px;}
+    .para404 img{height: 115px;}
+    .notice404{line-height: 30px;}
+    .des404{line-height: 20px;}
+    .copyRight{margin-bottom: 30px; line-height: 20px; text-align: center;}
+    .social{text-align: center; margin-bottom: 54px;}
+    
+    /*===============================
+    // About 1
+    ===============================*/
+    .adThumb{height: auto; width: 100%}
+    .adThumb img{width: 100%; height: auto;}
+    .abImg{margin-top: 80px;}
+    .abImg{height: auto; width: 100%; }
+    .abImg img{width: 100%; height: auto;}
+    .topBorder{display: none;}
+    .rightBorder{display: none;}
+    .bottomBorder{display: none;}
+    .singleskill{width: 85%;}
+    .teamMember{width: 100%;}
+    .teamHover{padding-top: 35%;}
+    .partner .col-lg-2{width: 50%; float: left;}
+    .singlePartner{margin-bottom: 20px;}
+    .singleTesticonial{padding-top: 50px; background-position: center top; padding-left: 0px;}
+    .singleTesticonial p{text-align: center;}
+    
+    /*===============================
+    // About 2
+    ===============================*/
+    .ab2Details, .ab2Details2{ margin-bottom: 30px; }
+    .singleAbService.noMarginBottom{ margin-bottom: 60px !important;}
+    .singleFacts{width: 100%; margin-bottom: 30px;}
+    .singleSkill2{margin-bottom: 30px;}
+    
+    /*===============================
+    // Blog 1
+    ===============================*/
+    .blogSmallThumb{margin-bottom: 35px;}
+    
+    /*===============================
+    // Blog 2
+    ===============================*/
+    .sblheading{margin-bottom: 0px;}
+    .sblMeta{margin-top: 15px; margin-bottom: 50px; text-align: left;}
+    .slbMeta2{text-align: left; margin-top: 20px;}
+    .slbMeta2 a.bShare{margin-right: 10px;}
+    
+    /*===============================
+    // Blog Single 1
+    ===============================*/
+    .singleRecentBlog{margin-bottom: 30px;}
+    .sidebar{padding-left: 15px;}
+    
+    /*===============================
+    // Blog Single 2
+    ===============================*/
+    .sbLikeCount{text-align: left; margin-top: 20px;}
+    .sbLikeCount a.lk{margin-left: 0px; margin-right: 6px;}
+    .authorDetails{width: 100%; padding-left: 0px;}
+    .authorDetails img{position: relative; margin-bottom: 15px;}
+    .authorDetails p{padding: 0px;}
+    .blogShare2{float: left; width: 100%;}
+    .singleComm img{position: relative; margin-bottom: 15px; left: 0;}
+    .singleComm{position: relative; padding-left: 0px;}
+    .commentList ol li ol li .singleComm{padding-left: 0px;}
+    .commentList ol li ol li .singleComm img{left: 0px;}
+    #commentForm input[type="text"], #commentForm input[type="email"]{margin-left: 0; margin-right: 0;}
+    .commentDiv form{margin-bottom: 50px;}
+    
+    /*===============================
+    // Contact
+    ===============================*/
+    .mapArea{height: 350px;}
+    
+    /*===============================
+    // Elements
+    ===============================*/
+    .butonSets{margin-bottom: 30px;}
+    .myAccPanels .panel-default > .panel-heading + .panel-collapse > .panel-body{padding-left: 25px;}
+    .myAccPanels .panel-title > a{font-size: 12px;}
+    .iconBoxes{margin-bottom: 30px;}
+    .price2, .singlePrice{margin-bottom: 30px;}
+    
+    /*===============================
+    // Folio 1
+    ===============================*/
+    .gridMenu ul{margin: 0; margin-bottom: 40px; float: left;}
+    .gridMenu ul li{margin-bottom: 18px;}
+    .sFolio1.noMarginBottom{margin-bottom: 30px !important;}
+    
+    /*===============================
+    // Folio Single
+    ===============================*/
+    .shareButton{display: none;}
+    .congrolsSF{padding-right: 5px; width: 100%; text-align: center;}
+    .congrolsSF a{width: 30px; height: 30px; margin-left: 3px;}
+    .sFslideController{height: 70px;}
+    
+    /*===============================
+    // Gall 1
+    ===============================*/
+    .g1Item.noMarginBottom{margin-bottom: 30px !important;}
+    #myGallery .modal-dialog{width: 90%;}
+    .itemDes{display: none;}
+    .gallControl, .gallCount{display: none;}
+    .carouselCount{width: 100%; text-align: center;}
+    .carouselCount p{padding-left: 0px;}
+    .myGalleryModal{z-index: 9999;}
+    .modal-backdrop.in{z-index: 9998;}
+     /*===============================
+    // Gall 2
+    ===============================*/
+    .flow{width: 300px;}
+    .flow .slides{width: 100% !important;}
+    .gmyCon{padding-top: 25px;}
+    .flowGallery{overflow: hidden;}
+    .flow .nextButton{display: none;}
+    .flow .prevButton{display: none;}
+    
+    /*===============================
+    // Gall 4
+    ===============================*/
+    .g4BigView{height: auto;}
+    .g4HoverContent{display: none;}
+    #gallThumb .carousel-control{width: 25px; height: 25px; top: 30%;}
+    
+    /*===============================
+    // Gall 5
+    ===============================*/
+    .sb5HContent{padding-top: 17%;}
+    /*===============================
+    // Home 01
+    ===============================*/
+    .revSlider{height: auto;}
+    .revSlider .tp-caption{display: none;}
+    .hGText{margin-bottom: 30px;}
+    .abAbout{margin-top: 30px;}
+    
+    .mainMenu ul.subMenu li{
+        border: medium none;
+        margin-bottom: 15px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+        padding-bottom: 15px;
+    }
+    .mainMenu ul.subMenu li:last-child{margin-bottom: 0px;}
+    
+    /*===============================
+    // Home 02
+    ===============================*/
+    .homeSlider2 .bx-wrapper{height: auto;}
+    .homeSlider2 .bx-wrapper .bx-viewport img{height: auto; min-width: 100%;}
+    .homeSlider2 #bx-pager{text-align: center;}
+    .homeSlider2 #bx-pager a{margin-bottom: 5px;}
+    .myCaptions{bottom: 50px; left: 50px;}
+    .homeSlider2 .bx-next{right: 20px;}
+    .homeSlider2 .bx-prev{left: 20px;}
+    
+    /*===============================
+    // Home 04
+    ===============================*/
+    .h4Gall{width: 100%; max-width: 390px; margin:  0 auto;}
+    
+    /*===============================
+    // Home 05
+    ===============================*/
+    #home5Slider .item img{ width: 100%; height: auto;}
+    .h5Next{right: 20px;}
+    .h5Prev{left: 20px;}
+    /*===============================
+    // Service Two
+    ===============================*/
+    .ser2Single {
+        margin-top: 30px;
+    }
+    /*===============================
+    // Service One
+    ===============================*/
+    .ser1Single {
+        border: 1px solid #dfdfdf;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .fewWordsDet .sectionTitle {
+        margin-top: 30px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    /*===============================
+    // 404
+    ===============================*/
+    .para404{font-size: 140px; line-height: 95px;}
+    .para404 img{height: 115px;}
+    .notice404{line-height: 30px;}
+    .des404{line-height: 20px;}
+    .copyRight{margin-bottom: 30px; line-height: 20px; text-align: center;}
+    .social{text-align: center; margin-bottom: 54px;}
+    
+    /*===============================
+    // About 1
+    ===============================*/
+    .adThumb{height: auto; width: 100%}
+    .adThumb img{width: 100%; height: auto;}
+    .abImg{margin-top: 80px;}
+    .abImg{height: auto; width: 100%; }
+    .abImg img{width: 100%; height: auto;}
+    .topBorder{display: none;}
+    .rightBorder{display: none;}
+    .bottomBorder{display: none;}
+    .singleskill{width: 85%;}
+    .teamMember{width: 100%;}
+    .teamHover{padding-top: 35%;}
+    .singlePartner{margin-bottom: 20px;}
+    .singleTesticonial{padding-top: 50px; background-position: center top; padding-left: 0px;}
+    .singleTesticonial p{text-align: center;}
+    /*===============================
+    // About 2
+    ===============================*/
+    .ab2Details, .ab2Details2{ margin-bottom: 30px; }
+    .singleAbService.noMarginBottom{ margin-bottom: 60px !important;}
+    .singleFacts{width: 100%; margin-bottom: 30px;}
+    .singleSkill2{margin-bottom: 30px;}
+    
+    /*===============================
+    // Blog 1
+    ===============================*/
+    .blogSmallThumb{margin-bottom: 35px;}
+    
+    /*===============================
+    // Blog 2
+    ===============================*/
+    .sblheading{margin-bottom: 0px;}
+    .sblMeta{margin-top: 15px; margin-bottom: 50px; text-align: left;}
+    .slbMeta2{text-align: left; margin-top: 20px;}
+    .slbMeta2 a.bShare{margin-right: 10px;}
+    .slbMeta2 a.likecomment{margin-left: 0; width: 70px;}
+    
+    /*===============================
+    // Blog Single 1
+    ===============================*/
+    #sB1Slider .carousel-control.right{width: 30px; height: 30px; right: 30px;}
+    #sB1Slider .carousel-control.left{width: 30px; height: 30px; left: 30px;}
+    .singleRecentBlog a{width: 100%;}
+    .singleRecentBlog{margin-bottom: 30px;}
+    .sidebar{padding-left: 15px;}
+    
+    /*===============================
+    // Blog Single 2
+    ===============================*/
+    .sbLikeCount{text-align: left; margin-top: 20px;}
+    .sbLikeCount a.lk{margin-left: 0px; margin-right: 6px;}
+    .authorDetails{width: 100%; padding-left: 0px;}
+    .authorDetails img{position: relative; margin-bottom: 15px;}
+    .authorDetails p{padding: 0px;}
+    .blogShare2{float: left; width: 100%;}
+    .singleComm img{position: relative; margin-bottom: 15px; left: 0;}
+    .singleComm{position: relative; padding-left: 0px;}
+    .commentList ol li ol li .singleComm{padding-left: 0px;}
+    .commentList ol li ol li .singleComm img{left: 0px;}
+    #commentForm input[type="text"], #commentForm input[type="email"]{margin-left: 0; margin-right: 0;}
+    .commentDiv form{margin-bottom: 50px;}
+    
+    /*===============================
+    // Contact
+    ===============================*/
+    .mapArea{height: 350px; margin-bottom: 30px;}
+    .singleConInfo{width: 100%; height: 250px; border: 1px solid #dfdfdf; margin-bottom: 30px; padding-top: 75px;}
+    
+    /*===============================
+    // Elements
+    ===============================*/
+    .butonSets{margin-bottom: 30px;}
+    .myAccPanels .panel-default > .panel-heading + .panel-collapse > .panel-body{padding-left: 25px;}
+    .myAccPanels .panel-title > a{font-size: 12px;}
+    .iconBoxes{margin-bottom: 30px;}
+    .price2, .singlePrice{margin-bottom: 30px;}
+    
+    /*===============================
+    // Folio 1
+    ===============================*/
+    .gridMenu ul{margin: 0; margin-bottom: 40px; float: left;}
+    .gridMenu ul li{margin-bottom: 18px;}
+    .sFolio1.noMarginBottom{margin-bottom: 30px !important;}
+    
+    /*===============================
+    // Folio 2
+    ===============================*/
+    .sFolio2:hover .sF2THoverLink2{right: 100px;}
+    .sFolio2:hover .sF2THoverLink{left: 100px;}
+    
+    /*===============================
+    // Folio 3
+    ===============================*/
+    .sFolio2.sFolio3:hover .sF2THoverLink{left: 100px;}
+    .sFolio2.sFolio3:hover .sF2THoverLink2{right: 100px;}
+    
+    /*===============================
+    // Folio 4
+    ===============================*/
+    .sF4Thumb{margin-bottom: 20px;}
+    /*===============================
+    // Folio Single
+    ===============================*/
+    .shareButton{display: none;}
+    .congrolsSF{padding-right: 5px; width: 100%; text-align: center;}
+    .congrolsSF a{width: 30px; height: 30px; margin-left: 3px;}
+    .sFslideController{height: 70px;}
+    
+    /*===============================
+    // Gall 1
+    ===============================*/
+    .g1Item.noMarginBottom{margin-bottom: 30px !important;}
+    #myGallery .modal-dialog{width: 90%;}
+    .itemDes{display: none;}
+    .gallControl, .gallCount{display: none;}
+    .carouselCount{width: 100%; text-align: center;}
+    .carouselCount p{padding-left: 0px;}
+    .myGalleryModal{z-index: 9999;}
+    .modal-backdrop.in{z-index: 9998;}
+    
+    /*===============================
+    // Gall 2
+    ===============================*/
+    .flow{width: 300px;}
+    .flow .slides{width: 100% !important;}
+    .gmyCon{padding-top: 25px;}
+    .flowGallery{overflow: hidden;}
+    .flow .nextButton{display: none;}
+    .flow .prevButton{display: none;}
+    
+    /*===============================
+    // Gall 3
+    ===============================*/
+    .slide_wrapper{width: 300px !important; height: 300px !important;}
+    .ribbon_wrapper .btn_prev, .ribbon_wrapper .btn_next{width: 30px; height: 30px; top: 58%; border-color: #272727;}
+    .ribbon_list, .ribbon_wrapper{height: 300px !important;}
+    .slider_info{padding-left: 0px;}
+    .slider_data{width: 100%; margin-bottom: 20px;}
+    .block_likes{width: 100%; text-align: left;}
+    .ribbon_wrapper .btn_prev{left: 10px;}
+    .ribbon_wrapper .btn_next{right: 10px;}
+    .g3HCongent{padding-top: 100px;}
+    
+    /*===============================
+    // Gall 4
+    ===============================*/
+    .g4BigView{height: auto;}
+    .g4HoverContent{display: none;}
+    #gallThumb .carousel-control{width: 25px; height: 25px; top: 30%;}
+    /*===============================
+    // Gall 5
+    ===============================*/
+    .sb5HContent{padding-top: 17%;}
+    
+    /*===============================
+    // Home 01
+    ===============================*/
+    .revSlider{height: auto;}
+    .revSlider .tp-caption{ display: none; }
+    .revSlider .tp-caption .sliderp{display: none;}
+    .sliderh1{line-height: 35px;}
+    .myQuoat img{display: block; margin:  0 auto 20px; }
+    .myQuoat{line-height: 25px;}
+    .hGText{margin-bottom: 30px;}
+    .abAbout{margin-top: 30px;}
+    
+    .mainMenu ul.subMenu li{
+        border: medium none;
+        margin-bottom: 15px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+        padding-bottom: 15px;
+    }
+    .mainMenu ul.subMenu li:last-child{margin-bottom: 0px;}
+    
+    /*===============================
+    // Home 02
+    ===============================*/
+    .homeSlider2 .bx-wrapper{height: auto;}
+    .homeSlider2 .bx-wrapper .bx-viewport img{height: auto; min-width: 100%;}
+    .homeSlider2 #bx-pager{text-align: center;}
+    .homeSlider2 #bx-pager a{margin-bottom: 5px;}
+    .homeSlider2 .bx-next{right: 20px;}
+    .homeSlider2 .bx-prev{left: 20px;}
+    .myCaptions{bottom: 20px; left: 0; text-align: center; width: 100%;}
+    .myCaptions p::before{border: none;}
+    .myCaptions p{padding: 0 15px; line-height: 20px;}
+    /*===============================
+    // Home 03
+    ===============================*/
+    .h3next{width: 30px; height: 30px; right: 35px;}
+    .h3prev{width: 30px; height: 30px; left: 35px;}
+    .h3Item img{ width: 100%; height: auto;}
+    .h3Item{overflow: hidden;}
+    
+    /*===============================
+    // Home 04
+    ===============================*/
+    .h4HoverContent h3 a{font-size: 11px;}
+    .h4Gall{width: 100%; max-width: 390px; margin:  0 auto;}
+    /*===============================
+    // Home 05
+    ===============================*/
+    #home5Slider .item img{ width: 100%; height: auto;}
+    .h5Next{right: 20px;}
+    .h5Prev{left: 20px;}
+    /*===============================
+    // Service Two
+    ===============================*/
+    .ser2Single {
+        margin-top: 30px;
+    }
+    .s2Process {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    /*===============================
+    // Service One
+    ===============================*/
+    .ser1Single {
+        border: 1px solid #dfdfdf;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .fewWordsDet .sectionTitle {
+        margin-top: 30px;
+    }
+}
